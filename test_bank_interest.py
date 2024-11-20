@@ -16,4 +16,5 @@ class TestBankInterest(unittest.TestCase):
         self.assertAlmostEqual(total, 110416.67, places=2)
 
 if __name__ == '__main__':
+    print("Hello")
     unittest.main()
