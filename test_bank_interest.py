@@ -14,6 +14,7 @@ class TestBankInterest(unittest.TestCase):
         arr, total = bank.diff_int()
         self.assertEqual(len(arr), 24)
         self.assertAlmostEqual(total, 110416.67, places=2)
+fklsdhfkldsjafhljfl
 
 if __name__ == '__main__':
     unittest.main()
